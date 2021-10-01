@@ -1,0 +1,85 @@
+body {
+	font-family: 'Press Start 2P';
+	line-height: 30px;
+}
+
+span {
+	font-weight: 400;
+}
+
+ol.g {
+	list-style-type: hiragana;
+	font-weight: 800;
+
+}
+
+.header {
+	width: 65%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+.photos1 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.photos2 {
+	width: 55%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.photo1 {
+	width: 19%;
+	margin: 0 10px;
+	border: 7px ridge;
+}
+
+.photo2 {
+	width: 29%;
+	margin: 0 10px;
+	border: 7px ridge;
+}
+
+.spisok {
+	width: 30%;
+	height: 115px;
+	margin: 0 auto;
+	margin-top: 1%;
+	background-color: #BFD9C6;
+	border: 10px ridge;
+}
+
+.wrapper {
+	width: 99.5%;
+	display: inline-flex;
+	justify-content: center;
+	margin: 18px auto 0;
+}
+
+.container1 {
+	width: 45%;
+	height: 90vh;
+	background-color: #BFD9C6;
+	border: 10px ridge;
+}
+
+.container2 {
+	width: 45%;
+	height: 90vh;
+	background-color: #BFD9C6;
+	border: 10px ridge;
+}
+
+.text {
+	width: 80%;
+	height: 80%;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 10%;
+	font-size: 16px;
+}
