@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Лабораторная работа №5</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1>Россия - страна для путешествий.</h1>
+
+	<div class="entry">
+		<div class="entry-el">
+			<div class="text1">
+				<p>
+					Лучшие места отдыха и виды туризма в России – это безграничные возможности для путешественника, обилие рекреационных ресурсов, тысячи отелей, гостеприимно распахивающих свои двери.
+				</p>
+				<p>
+					Туризм в России интернационален. В России отдыхают не только жители этой страны, сюда охотно едут белорусы, украинцы, китайцы, нередко – и европейцы.
+				</p>
+			</div>
+			
+			<div class="photos">
+				<img src="img/1.jpg" class="photo" alt="">
+				<img src="img/2.jpg" class="photo" alt="">
+			</div>
+		</div>
+
+		
+		<div class="entry-el sec">
+			<div class="text2">
+				<p>
+					Неважно, любите вы пляжный отдых, мечтаете покататься на лыжах, сходить на рыбалку, осмотреть здания с тысячелетней историей или полюбоваться пейзажами. Российские курорты позволяют без труда реализовать любые мечты и планы.
+				</p>
+				<p>
+					Туризм на любой вкус можно найти в России – китовые танцы или горнолыжный Кавказ, имперские дворцы или люкс черноморья. А лучшие места для отдыха в России те, куда мечтают приехать снова.
+				</p>
+			</div>
+			
+			<div class="photos">
+				<img src="img/3.jpg" class="photo" alt="">
+				<img src="img/4.jpg" class="photo" alt="">
+			</div>
+		</div>
+	</div>
+
+	
+
+	<form action="action_form.php" method="POST">
+		<p>
+
+		<b>Оставьте свои данные чтобы отправиться в наиболее приглянувшееся вам место России:</b><br>
+
+		Ваш пол: 
+		<input type="radio" name="answer" value="a1">М
+		<input type="radio" name="answer" value="a2">Ж<br>
+
+		Фамилия <input type="text" name="surname" value=""><br>
+		Имя <input type="text" name="name" value=""><br>
+		Отчество <input type="text" name="fathername" value=""><br>
+		Email <input type="text" name="email" value=""><br>
+		Телефон <input type="text" name="phonenumber" value=""><br>
+		Сколько человек поедет? <input type="numberofpeople" name="password" value=""><br>
+
+		Куда бы вы хотели отправиться:
+
+		<select required>
+			<option>Анапа</option>
+			<option>Владивосток</option>
+			<option>Екатеринбург</option>
+			<option>Казань</option>
+			<option>Москва</option>
+			<option>Нижний Новгород</option>
+			<option>о-в Сахалин</option>
+			<option>о-в Русский</option>
+			<option>оз. Байкал</option>
+			<option>Санкт-Петербург</option>
+			<option>Сочи</option>
+			<option>Ялта</option>
+		</select><br>
+
+		<input type="checkbox" name="a" value="Я">Я согласен <a href="">с условиями использования</a><br>
+		<input type="submit" value="Зарегистрироваться">
+
+		</p>
+	</form>
+</body>
+</html>

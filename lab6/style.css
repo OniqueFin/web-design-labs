@@ -1,0 +1,53 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 38px;
+	background: #E8D4A9;
+	text-align: center;
+}
+
+form {
+	border: 5px solid #7C6067;
+	width: 45%;
+	background-color:antiquewhite;
+	margin: 0 auto;
+	line-height: 42px;
+}
+
+.entry {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 26px;
+}
+
+.entry-el {
+	display: flex;
+	justify-content: space-around;
+}
+
+.sec {
+	flex-direction: row-reverse;
+}
+
+.text1 {
+	text-align: left;
+	width: 50%;
+}
+
+.text2 {
+	text-align: right;
+	width: 50%;
+}
+
+.photo {
+	width: 400px;
+	height: 220px;
+	margin: 15px 0;
+	border: 5px solid #7C6067;
+}
+
+.photos {
+	display: flex;
+	flex-direction: column;
+}
+
+
