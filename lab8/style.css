@@ -1,0 +1,50 @@
+body{
+    background: url(img/back.jpg) repeat;
+    background-size: 100%;
+    font-family: 'Forum', cursive; 
+}
+
+span {
+    font-style: italic;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 60vh;
+    margin: 7vh auto;
+    background: #DDD9A8;
+    border: 7px ridge #897555;
+}
+
+.entryImage {
+    width: 45%; 
+}
+
+.entryText {
+    width: 45%;
+    font-size: 25px;
+    
+}
+
+.galleryItem {
+    width: 320px;
+    height: 400px;
+    background: #DDD9A8;
+    padding-left: 15px;
+    padding-top: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    border: 7px ridge #897555;
+}
+.image {
+    width: 290px;
+    height: 320px; 
+    margin-bottom: 2%;
+}
